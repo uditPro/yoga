@@ -10,8 +10,8 @@ export default function Classes() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden lotus-pattern">
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute w-96 h-96 rounded-full bg-gradient-to-br from-lotus-pink to-transparent blur-3xl animate-float top-20 left-10"></div>
-          <div className="absolute w-96 h-96 rounded-full bg-gradient-to-br from-zen-green to-transparent blur-3xl animate-float bottom-20 right-10" style={{ animationDelay: '2s' }}></div>
+          <div className="absolute w-96 h-96 rounded-full bg-linear-to-br from-lotus-pink to-transparent blur-3xl animate-float top-20 left-10"></div>
+          <div className="absolute w-96 h-96 rounded-full bg-linear-to-br from-zen-green to-transparent blur-3xl animate-float bottom-20 right-10" style={{ animationDelay: '2s' }}></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center">
@@ -28,13 +28,13 @@ export default function Classes() {
       </section>
 
       {/* Classes Grid */}
-      <section className="py-20 bg-gradient-to-b from-transparent to-accent/20">
+      <section className="py-20 bg-linear-to-b from-transparent to-accent/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Hatha Yoga */}
           <div className="mb-20 zen-card bg-white rounded-3xl overflow-hidden shadow-xl">
             <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative h-64 sm:h-80 md:h-auto bg-gradient-to-br from-lotus-pink to-pink-300 flex items-center justify-center">
+              <div className="relative h-64 sm:h-80 md:h-auto bg-linear-to-br from-lotus-pink to-pink-300 flex items-center justify-center">
                 <div className="text-7xl sm:text-9xl animate-breathe">🌺</div>
               </div>
               <div className="p-8 sm:p-12">
@@ -103,7 +103,7 @@ export default function Classes() {
                   <span>→</span>
                 </button>
               </div>
-              <div className="relative h-80 md:h-auto bg-gradient-to-br from-zen-green to-green-300 flex items-center justify-center order-1 md:order-2">
+              <div className="relative h-80 md:h-auto bg-linear-to-br from-zen-green to-green-300 flex items-center justify-center order-1 md:order-2">
                 <div className="text-9xl animate-breathe" style={{ animationDelay: '1s' }}>🍃</div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function Classes() {
           {/* Ashtanga */}
           <div className="mb-20 zen-card bg-white rounded-3xl overflow-hidden shadow-xl">
             <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative h-80 md:h-auto bg-gradient-to-br from-calm-blue to-blue-300 flex items-center justify-center">
+              <div className="relative h-80 md:h-auto bg-linear-to-br from-calm-blue to-blue-300 flex items-center justify-center">
                 <div className="text-9xl animate-breathe" style={{ animationDelay: '0.5s' }}>💫</div>
               </div>
               <div className="p-12">
@@ -181,7 +181,7 @@ export default function Classes() {
                   <span>→</span>
                 </button>
               </div>
-              <div className="relative h-80 md:h-auto bg-gradient-to-br from-mandala-gold to-yellow-300 flex items-center justify-center order-1 md:order-2">
+              <div className="relative h-80 md:h-auto bg-linear-to-br from-mandala-gold to-yellow-300 flex items-center justify-center order-1 md:order-2">
                 <div className="text-9xl animate-breathe" style={{ animationDelay: '1.5s' }}>⚡</div>
               </div>
             </div>
@@ -190,7 +190,7 @@ export default function Classes() {
           {/* Yin Yoga */}
           <div className="mb-20 zen-card bg-white rounded-3xl overflow-hidden shadow-xl">
             <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative h-80 md:h-auto bg-gradient-to-br from-purple-300 to-purple-400 flex items-center justify-center">
+              <div className="relative h-80 md:h-auto bg-linear-to-br from-purple-300 to-purple-400 flex items-center justify-center">
                 <div className="text-9xl animate-breathe">🌙</div>
               </div>
               <div className="p-12">
@@ -218,7 +218,7 @@ export default function Classes() {
                     <span className="text-gray-700">Focus: Deep Stretch & Meditation</span>
                   </div>
                 </div>
-                <button className="px-8 py-3 bg-gradient-to-r from-purple-400 to-purple-500 text-white rounded-full font-semibold hover:scale-105 transition-transform shadow-lg">
+                <button className="px-8 py-3 bg-linear-to-r from-purple-400 to-purple-500 text-white rounded-full font-semibold hover:scale-105 transition-transform shadow-lg">
                   Book This Class
                 </button>
               </div>
@@ -253,11 +253,11 @@ export default function Classes() {
                     <span className="text-gray-700">Focus: Strength & Endurance</span>
                   </div>
                 </div>
-                <button className="px-8 py-3 bg-gradient-to-r from-red-400 to-red-500 text-white rounded-full font-semibold hover:scale-105 transition-transform shadow-lg">
+                <button className="px-8 py-3 bg-linear-to-r from-red-400 to-red-500 text-white rounded-full font-semibold hover:scale-105 transition-transform shadow-lg">
                   Book This Class
                 </button>
               </div>
-              <div className="relative h-80 md:h-auto bg-gradient-to-br from-red-300 to-red-400 flex items-center justify-center order-1 md:order-2">
+              <div className="relative h-80 md:h-auto bg-linear-to-br from-red-300 to-red-400 flex items-center justify-center order-1 md:order-2">
                 <div className="text-9xl animate-breathe" style={{ animationDelay: '2s' }}>🔥</div>
               </div>
             </div>
@@ -268,7 +268,7 @@ export default function Classes() {
 
       {/* CTA Section */}
       <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center text-white">
           <h2 className="text-5xl font-bold mb-6" style={{ fontFamily: 'var(--font-playfair)' }}>
             Not Sure Which Class to Choose?

@@ -67,8 +67,8 @@ export default function Blog() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden lotus-pattern">
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute w-96 h-96 rounded-full bg-gradient-to-br from-calm-blue to-transparent blur-3xl animate-float top-20 left-20"></div>
-          <div className="absolute w-96 h-96 rounded-full bg-gradient-to-br from-lotus-pink to-transparent blur-3xl animate-float bottom-20 right-20" style={{ animationDelay: '3s' }}></div>
+          <div className="absolute w-96 h-96 rounded-full bg-linear-to-br from-calm-blue to-transparent blur-3xl animate-float top-20 left-20"></div>
+          <div className="absolute w-96 h-96 rounded-full bg-linear-to-br from-lotus-pink to-transparent blur-3xl animate-float bottom-20 right-20" style={{ animationDelay: '3s' }}></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center">
@@ -85,7 +85,7 @@ export default function Blog() {
       </section>
 
       {/* Articles Grid */}
-      <section className="py-20 bg-gradient-to-b from-transparent to-accent/20">
+      <section className="py-20 bg-linear-to-b from-transparent to-accent/20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {articles.map((article, index) => (
@@ -93,7 +93,7 @@ export default function Blog() {
                 key={article.id}
                 className="zen-card bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group cursor-pointer"
               >
-                <div className={`h-48 bg-gradient-to-br ${article.color} flex items-center justify-center overflow-hidden relative`}>
+                <div className={`h-48 bg-linear-to-br ${article.color} flex items-center justify-center overflow-hidden relative`}>
                   <span className="text-7xl group-hover:scale-110 transition-transform duration-500">{article.image}</span>
                 </div>
                 
@@ -154,7 +154,7 @@ export default function Blog() {
       </section>
 
       {/* Resources Section */}
-      <section className="py-20 bg-gradient-to-b from-accent/10 to-white">
+      <section className="py-20 bg-linear-to-b from-accent/10 to-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 gradient-text" style={{ fontFamily: 'var(--font-playfair)' }}>
@@ -190,7 +190,7 @@ export default function Blog() {
                 key={index}
                 className="zen-card bg-white rounded-2xl p-8 shadow-lg text-center cursor-pointer group"
               >
-                <div className={`w-24 h-24 bg-gradient-to-br ${resource.color} rounded-full flex items-center justify-center text-5xl mx-auto mb-6 group-hover:scale-110 transition-transform`}>
+                <div className={`w-24 h-24 bg-linear-to-br ${resource.color} rounded-full flex items-center justify-center text-5xl mx-auto mb-6 group-hover:scale-110 transition-transform`}>
                   {resource.icon}
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-primary">{resource.title}</h3>
@@ -206,7 +206,7 @@ export default function Blog() {
 
       {/* CTA Section */}
       <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
         <div className="absolute inset-0 lotus-pattern opacity-20"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center text-white">

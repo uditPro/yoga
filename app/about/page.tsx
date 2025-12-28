@@ -9,7 +9,7 @@ export default function About() {
       
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-accent/30 via-lotus-pink/20 to-zen-green/20"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-accent/30 via-lotus-pink/20 to-zen-green/20"></div>
         <div className="absolute inset-0 lotus-pattern"></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center">
@@ -122,7 +122,7 @@ export default function About() {
       </section>
 
       {/* The Eight Limbs */}
-      <section className="py-20 bg-gradient-to-b from-accent/20 to-white">
+      <section className="py-20 bg-linear-to-b from-accent/20 to-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 gradient-text" style={{ fontFamily: 'var(--font-playfair)' }}>
@@ -148,8 +148,8 @@ export default function About() {
                 key={index}
                 className="zen-card bg-white rounded-2xl p-6 shadow-lg flex items-start space-x-4"
               >
-                <div className="flex-shrink-0">
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary to-spiritual flex items-center justify-center text-white font-bold text-xl">
+                <div className="shrink-0">
+                  <div className="w-14 h-14 rounded-full bg-linear-to-br from-primary to-spiritual flex items-center justify-center text-white font-bold text-xl">
                     {limb.number}
                   </div>
                 </div>
@@ -210,7 +210,7 @@ export default function About() {
                 key={index}
                 className="zen-card bg-white rounded-3xl overflow-hidden shadow-lg"
               >
-                <div className="h-48 bg-gradient-to-br from-primary via-spiritual to-mandala-gold flex items-center justify-center">
+                <div className="h-48 bg-linear-to-br from-primary via-spiritual to-mandala-gold flex items-center justify-center">
                   <span className="text-8xl">{instructor.emoji}</span>
                 </div>
                 <div className="p-8">
@@ -235,7 +235,7 @@ export default function About() {
 
       {/* Quote Section */}
       <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
         <div className="absolute inset-0 lotus-pattern opacity-20"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center text-white">
@@ -266,7 +266,7 @@ export default function About() {
             Whether you're a complete beginner or an experienced practitioner, you'll find your place in our 
             welcoming sangha. Your transformation begins today.
           </p>
-          <button className="px-10 py-4 bg-gradient-to-r from-primary via-spiritual to-mandala-gold text-white text-lg font-bold rounded-full hover:scale-110 transition-transform shadow-2xl hover:shadow-3xl flex items-center space-x-2 mx-auto">
+          <button className="px-10 py-4 bg-linear-to-r from-primary via-spiritual to-mandala-gold text-white text-lg font-bold rounded-full hover:scale-110 transition-transform shadow-2xl hover:shadow-3xl flex items-center space-x-2 mx-auto">
             <span>Start Your Journey</span>
             <span>🚀</span>
           </button>

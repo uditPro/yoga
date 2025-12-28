@@ -28,7 +28,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative w-12 h-12">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary via-mandala-gold to-spiritual rounded-full animate-breathe opacity-70"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-primary via-mandala-gold to-spiritual rounded-full animate-breathe opacity-70"></div>
               <div className="absolute inset-2 bg-white rounded-full flex items-center justify-center">
                 <span className="text-2xl">🪷</span>
               </div>
@@ -103,7 +103,7 @@ export default function Navigation() {
               </Link>
             ))}
             <div className="border-t border-gray-200 pt-4 mt-4">
-              <button className="w-full px-6 py-4 bg-gradient-to-r from-primary to-spiritual text-white rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-lg flex items-center justify-center space-x-2">
+              <button className="w-full px-6 py-4 bg-linear-to-r from-primary to-spiritual text-white rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-lg flex items-center justify-center space-x-2">
                 <span>Book Class</span>
                 <span>✨</span>
               </button>

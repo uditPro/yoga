@@ -59,7 +59,7 @@ export default function Schedule() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden lotus-pattern">
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute w-96 h-96 rounded-full bg-gradient-to-br from-mandala-gold to-transparent blur-3xl animate-float top-10 right-10"></div>
+          <div className="absolute w-96 h-96 rounded-full bg-linear-to-br from-mandala-gold to-transparent blur-3xl animate-float top-10 right-10"></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center">
@@ -85,7 +85,7 @@ export default function Schedule() {
                 onClick={() => setSelectedDay(day)}
                 className={`px-6 sm:px-8 py-2 sm:py-3 rounded-full font-bold whitespace-nowrap text-sm sm:text-base transition-all duration-300 ${
                   selectedDay === day
-                    ? 'bg-gradient-to-r from-primary to-spiritual text-white shadow-lg scale-105'
+                    ? 'bg-linear-to-r from-primary to-spiritual text-white shadow-lg scale-105'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
@@ -97,7 +97,7 @@ export default function Schedule() {
       </section>
 
       {/* Schedule Grid */}
-      <section className="py-20 bg-gradient-to-b from-accent/10 to-white">
+      <section className="py-20 bg-linear-to-b from-accent/10 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12 text-center">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4 sm:mb-4" style={{ fontFamily: 'var(--font-playfair)' }}>
@@ -216,12 +216,12 @@ export default function Schedule() {
                 }`}
               >
                 {plan.popular && (
-                  <div className="absolute top-0 right-0 bg-gradient-to-r from-primary to-spiritual text-white px-6 py-2 rounded-bl-3xl font-semibold">
+                  <div className="absolute top-0 right-0 bg-linear-to-r from-primary to-spiritual text-white px-6 py-2 rounded-bl-3xl font-semibold">
                     Most Popular
                   </div>
                 )}
                 
-                <div className={`h-40 bg-gradient-to-br ${plan.color} flex items-center justify-center`}>
+                <div className={`h-40 bg-linear-to-br ${plan.color} flex items-center justify-center`}>
                   <span className="text-7xl">{plan.icon}</span>
                 </div>
                 
@@ -244,7 +244,7 @@ export default function Schedule() {
                     ))}
                   </ul>
 
-                  <button className={`w-full px-8 py-4 rounded-full font-bold text-white bg-gradient-to-r ${plan.color} hover:scale-105 transition-transform shadow-lg hover:shadow-2xl`}>
+                  <button className={`w-full px-8 py-4 rounded-full font-bold text-white bg-linear-to-r ${plan.color} hover:scale-105 transition-transform shadow-lg hover:shadow-2xl`}>
                     Choose Plan
                   </button>
                 </div>
@@ -256,7 +256,7 @@ export default function Schedule() {
 
       {/* Booking CTA */}
       <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
         <div className="absolute inset-0 lotus-pattern opacity-20"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center text-white">

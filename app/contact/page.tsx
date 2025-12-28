@@ -31,7 +31,7 @@ export default function Contact() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden lotus-pattern">
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute w-96 h-96 rounded-full bg-gradient-to-br from-calm-blue to-transparent blur-3xl animate-float top-20 left-20"></div>
+          <div className="absolute w-96 h-96 rounded-full bg-linear-to-br from-calm-blue to-transparent blur-3xl animate-float top-20 left-20"></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center">
@@ -53,7 +53,7 @@ export default function Contact() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
             
             {/* Contact Form */}
-            <div className="zen-card bg-gradient-to-br from-accent/20 to-white rounded-3xl p-8 sm:p-10 shadow-xl">
+            <div className="zen-card bg-linear-to-br from-accent/20 to-white rounded-3xl p-8 sm:p-10 shadow-xl">
               <h2 className="text-3xl sm:text-4xl font-bold mb-8 gradient-text" style={{ fontFamily: 'var(--font-playfair)' }}>
                 Send Us a Message
               </h2>
@@ -142,7 +142,7 @@ export default function Contact() {
                 <div className="space-y-8">
                   {/* Address */}
                   <div className="flex items-start space-x-4">
-                    <div className="w-14 h-14 bg-gradient-to-br from-lotus-pink to-pink-300 rounded-2xl flex items-center justify-center flex-shrink-0 animate-breathe">
+                    <div className="w-14 h-14 bg-linear-to-br from-lotus-pink to-pink-300 rounded-2xl flex items-center justify-center shrink-0 animate-breathe">
                       <span className="text-2xl">📍</span>
                     </div>
                     <div>
@@ -157,7 +157,7 @@ export default function Contact() {
 
                   {/* Phone */}
                   <div className="flex items-start space-x-4">
-                    <div className="w-14 h-14 bg-gradient-to-br from-zen-green to-green-300 rounded-2xl flex items-center justify-center flex-shrink-0 animate-breathe" style={{ animationDelay: '1s' }}>
+                    <div className="w-14 h-14 bg-linear-to-br from-zen-green to-green-300 rounded-2xl flex items-center justify-center shrink-0 animate-breathe" style={{ animationDelay: '1s' }}>
                       <span className="text-2xl">📞</span>
                     </div>
                     <div>
@@ -169,7 +169,7 @@ export default function Contact() {
 
                   {/* Email */}
                   <div className="flex items-start space-x-4">
-                    <div className="w-14 h-14 bg-gradient-to-br from-calm-blue to-blue-300 rounded-2xl flex items-center justify-center flex-shrink-0 animate-breathe" style={{ animationDelay: '2s' }}>
+                    <div className="w-14 h-14 bg-linear-to-br from-calm-blue to-blue-300 rounded-2xl flex items-center justify-center shrink-0 animate-breathe" style={{ animationDelay: '2s' }}>
                       <span className="text-2xl">📧</span>
                     </div>
                     <div>
@@ -181,7 +181,7 @@ export default function Contact() {
 
                   {/* Hours */}
                   <div className="flex items-start space-x-4">
-                    <div className="w-14 h-14 bg-gradient-to-br from-mandala-gold to-yellow-300 rounded-2xl flex items-center justify-center flex-shrink-0 animate-breathe" style={{ animationDelay: '3s' }}>
+                    <div className="w-14 h-14 bg-linear-to-br from-mandala-gold to-yellow-300 rounded-2xl flex items-center justify-center shrink-0 animate-breathe" style={{ animationDelay: '3s' }}>
                       <span className="text-2xl">⏰</span>
                     </div>
                     <div>
@@ -196,7 +196,7 @@ export default function Contact() {
               </div>
 
               {/* Social Media */}
-              <div className="zen-card bg-gradient-to-br from-primary/10 to-spiritual/10 rounded-3xl p-8">
+              <div className="zen-card bg-linear-to-br from-primary/10 to-spiritual/10 rounded-3xl p-8">
                 <h3 className="text-2xl font-bold mb-6 text-primary" style={{ fontFamily: 'var(--font-playfair)' }}>
                   Follow Our Journey
                 </h3>
@@ -209,7 +209,7 @@ export default function Contact() {
                   ].map((social, index) => (
                     <button
                       key={index}
-                      className={`zen-card p-6 bg-gradient-to-br ${social.color} text-white rounded-2xl hover:scale-105 transition-transform shadow-lg`}
+                      className={`zen-card p-6 bg-linear-to-br ${social.color} text-white rounded-2xl hover:scale-105 transition-transform shadow-lg`}
                     >
                       <div className="text-4xl mb-2">{social.icon}</div>
                       <div className="font-semibold">{social.name}</div>
@@ -224,7 +224,7 @@ export default function Contact() {
       </section>
 
       {/* Map Section */}
-      <section className="py-20 bg-gradient-to-b from-accent/10 to-white">
+      <section className="py-20 bg-linear-to-b from-accent/10 to-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 gradient-text" style={{ fontFamily: 'var(--font-playfair)' }}>
@@ -233,7 +233,7 @@ export default function Contact() {
             <p className="text-gray-600">Located in the heart of San Francisco</p>
           </div>
           
-          <div className="zen-card rounded-3xl overflow-hidden shadow-2xl h-96 bg-gradient-to-br from-accent/30 to-calm-blue/20 flex items-center justify-center">
+          <div className="zen-card rounded-3xl overflow-hidden shadow-2xl h-96 bg-linear-to-br from-accent/30 to-calm-blue/20 flex items-center justify-center">
             <div className="text-center">
               <span className="text-8xl mb-4 block animate-float">🗺️</span>
               <p className="text-xl text-gray-600">Interactive map would be integrated here</p>
@@ -293,7 +293,7 @@ export default function Contact() {
 
       {/* CTA Section */}
       <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-primary via-spiritual to-mandala-gold opacity-95"></div>
         <div className="absolute inset-0 lotus-pattern opacity-20"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center text-white">

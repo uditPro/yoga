@@ -23,7 +23,7 @@ export default function Home() {
         {/* Animated Background Elements */}
         <div className="absolute inset-0 opacity-30">
           <div 
-            className="absolute w-96 h-96 rounded-full bg-gradient-to-br from-lotus-pink to-transparent blur-3xl animate-float"
+            className="absolute w-96 h-96 rounded-full bg-linear-to-br from-lotus-pink to-transparent blur-3xl animate-float"
             style={{
               top: '10%',
               left: '10%',
@@ -31,7 +31,7 @@ export default function Home() {
             }}
           ></div>
           <div 
-            className="absolute w-96 h-96 rounded-full bg-gradient-to-br from-zen-green to-transparent blur-3xl animate-float"
+            className="absolute w-96 h-96 rounded-full bg-linear-to-br from-zen-green to-transparent blur-3xl animate-float"
             style={{
               top: '50%',
               right: '10%',
@@ -40,7 +40,7 @@ export default function Home() {
             }}
           ></div>
           <div 
-            className="absolute w-96 h-96 rounded-full bg-gradient-to-br from-calm-blue to-transparent blur-3xl animate-float"
+            className="absolute w-96 h-96 rounded-full bg-linear-to-br from-calm-blue to-transparent blur-3xl animate-float"
             style={{
               bottom: '10%',
               left: '30%',
@@ -77,7 +77,7 @@ export default function Home() {
             <button className="group relative px-8 sm:px-12 py-4 sm:py-5 bg-white text-primary text-base sm:text-lg font-bold rounded-full overflow-hidden transition-all duration-500 hover:scale-110 hover:shadow-2xl shadow-xl flex items-center space-x-2 w-full sm:w-auto justify-center">
               <span className="relative z-10">Start Your Journey</span>
               <span className="group-hover:translate-x-1 transition-transform">→</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-primary via-spiritual to-mandala-gold opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-r from-primary via-spiritual to-mandala-gold opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
             </button>
             
             <button className="px-8 sm:px-12 py-4 sm:py-5 bg-white/90 backdrop-blur-sm text-primary text-base sm:text-lg font-bold rounded-full border-2 border-white hover:bg-white hover:text-primary transition-all duration-500 hover:scale-110 hover:shadow-2xl shadow-xl w-full sm:w-auto">
@@ -105,7 +105,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 sm:py-24 md:py-32 bg-gradient-to-b from-transparent to-accent/30">
+      <section className="py-16 sm:py-24 md:py-32 bg-linear-to-b from-transparent to-accent/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-20">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 gradient-text" style={{ fontFamily: 'var(--font-playfair)' }}>
@@ -177,7 +177,7 @@ export default function Home() {
                 key={index}
                 className="zen-card group relative overflow-hidden rounded-3xl h-64 sm:h-80 cursor-pointer"
               >
-                <div className={`absolute inset-0 bg-gradient-to-br ${yogaClass.color} opacity-90 group-hover:opacity-100 transition-opacity duration-500`}></div>
+                <div className={`absolute inset-0 bg-linear-to-br ${yogaClass.color} opacity-90 group-hover:opacity-100 transition-opacity duration-500`}></div>
                 <div className="relative h-full flex flex-col items-center justify-center p-6 text-white">
                   <div className="text-6xl mb-4 animate-breathe">{yogaClass.emoji}</div>
                   <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: 'var(--font-playfair)' }}>
@@ -199,7 +199,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-16 sm:py-24 md:py-32 bg-gradient-to-b from-accent/30 to-transparent">
+      <section className="py-16 sm:py-24 md:py-32 bg-linear-to-b from-accent/30 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-20">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 gradient-text" style={{ fontFamily: 'var(--font-playfair)' }}>
@@ -255,7 +255,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-16 sm:py-24 md:py-32 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-800 opacity-95"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-gray-900 via-black to-gray-800 opacity-95"></div>
         <div className="absolute inset-0 lotus-pattern opacity-10"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
